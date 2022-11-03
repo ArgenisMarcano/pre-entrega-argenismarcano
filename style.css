@@ -1,0 +1,347 @@
+
+/*header*/
+header{ background-color:lightpink; 
+        text-align: center;
+        display: flex;
+        justify-content: space-around,;
+        justify-content: center;}
+/*body*/
+body{background-image:url(images/imagen\ fondo.jpg);
+        background-size:cover;}
+
+
+.imagenlogo{height: auto;
+            width: auto;
+            max-width: 100px;
+            max-height: 100px;}
+
+/* Header usando la tecnica de cascada*/
+
+ header nav ul li {display: inline;
+                   margin: 20px;  
+                 text-decoration: none;}
+
+
+/*home*/
+
+h1:hover{ text-align: center;
+        color: lightpink;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+       
+        }
+
+        
+
+
+#h3-home{text-align: center;
+        color: pink;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+/*imagen*/
+.imagenpasteleria{width:300px;
+                border-radius: 500px; }
+
+                
+.section-home{ background-color: lightpink;
+            border-radius: 50px;
+                display: flex;
+                margin-bottom: 20px;
+                justify-content: center;}
+
+
+#h2-home{text-align: center;}
+
+
+
+/*imagen*/
+.imagenpanaderia{width: 300px;
+                height: 200px;
+                display: flex;
+                justify-content: center;
+                border-radius: 500px;}
+
+
+
+/*imagen*/
+.imagenboxes{width: 300px;
+                height: 200px;
+                border-radius: 500px;}
+
+
+
+#h4footer{color: black;}
+
+
+/*a*/
+a{text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: bold italic;
+        color: black;
+        font-size: large;}
+        
+
+
+ /* Nosotros */
+/*se rehutilizaron los ID*/
+
+.section-nosotros{background-color: lightpink;
+                border-radius: 40px;
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                margin-bottom: 20px;}
+
+
+#h2-nosotros{display: flex;
+        justify-content: center;}
+
+
+.img-somos{width: 350px;}
+
+.img-vision{width: 350px;}
+
+
+        /* Productos*/
+.container-productos{
+                margin: 20px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: space-around;}
+
+.card-body{background-color: lightpink;}
+                
+
+      
+
+
+/* sugerencias*/
+
+.Form-sugerencias{
+        width: 300px;
+        background-color: pink;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border-radius: 4px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;}
+
+
+
+/*Oponion de clientes*/
+:root {
+        --ewc-color-1: #ffffff;/*Blanco*/
+        --ewc-color-2: #eae1da;/*Fondo chat*/
+        --ewc-color-4: #00796a;/*Fondo nombre y enviar*/
+    }
+    
+
+    .chat-container{
+        display: flex;
+        justify-content: space-around;
+    flex-wrap: wrap;}
+    .ewChat {
+        position:sticky;
+        bottom: 15px;
+        right: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 0;
+        padding: 0;
+        width: 320px;
+        max-width: calc(100% - 60px);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 11;
+    }
+    
+    .ewChatBox {
+        width: 100%;
+        background-color: var(--ewc-color-2);
+        border-radius: 15px;
+        display: flex;
+        transition: opacity 1000ms;
+        flex-direction: column;
+    }
+    
+    .ewChatAvatar {
+        left: calc(50% - 32px);
+        top: -80px;
+        width: 59px;
+        height: 59px;
+        padding: 3px;
+        border-radius: 100%;
+        background-color: var(--ewc-color-1);
+        display: flex;
+    }
+    
+    .Opinions {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 25px;/*Espacio entre medido bajo de las badges*/
+    }
+    
+    /*Centrar el Avatar*/
+    .ewChatAvatar img {
+        margin: 2px 4px 5px;
+    }
+    
+    .ewChatHeader {
+        background-color: var(--ewc-color-4);
+        color: var(--ewc-color-1);
+        border-radius: 15px 15px 0 0;
+        padding: 5px;/*Tamaño del fondo verde*/
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    
+    .ewChatHeader h3 {
+        font-size: 18px;
+        margin: 3px;
+    }
+    
+    .ewChatHeader p {
+        font-size: 12px;
+        margin: 0;
+    }
+    
+    .ewChatBubble {
+        background-color: var(--ewc-color-1);
+        margin: 10px 18px 10px 30px;
+        padding: 9px 9px 25px 9px;
+        text-align: left;
+        border-radius: 0 10px 10px 10px;
+        position: relative;
+        transition: opacity 1000ms;
+    }
+    
+    .ewChatBubble:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        border: 15px solid transparent;
+        border-right-color: var(--ewc-color-1);
+        border-left: 0;
+        border-top: 0;
+        margin-top: 0;
+        margin-left: -15px;
+    }
+    
+    .ewChatBubble p {
+        margin: 0;
+        font-size: 14px;
+    }
+    
+    .ewChatBubble span {
+        position: absolute;
+        bottom: 5px;
+        right: 9px;
+        opacity: 0.5;
+        font-size: 11px;
+    }
+    
+    .ewChatInput {
+        display: flex;
+        transition: opacity 1000ms;
+        width: 100%;
+        margin-top: 10px;
+        background-color: var(--ewc-color-1);
+        height: 48px;
+        border-radius: 24px;
+        border: 1px solid black; /*Quitar despues que coloque fondo*/
+        border-width: thin; /*Quitar despues que coloque fondo*/
+    }
+    
+    .ewChatInput input {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        background-color: var(--ewc-color-1);
+        height: 32px;
+        margin: auto 20px;
+        width: 100%;
+        border: none;
+    }
+    
+    .ewChatInput input:focus {
+        outline: none;
+    }
+    
+    .ewChatInput button {
+        border: none;
+        background-color: var(--ewc-color-4);
+        border-radius: 20px;
+        margin: 4px;
+        color: var(--ewc-color-1);
+        padding: 8px;
+    }
+    
+     
+    /*Footer*/
+
+    .footer-basic {
+        padding:40px 0;
+        background-color:lightpink;
+        color:#4b4c4d;
+      }
+      
+      .footer-basic ul {
+        padding:0;
+        list-style:none;
+        text-align:center;
+        font-size:18px;
+        line-height:1.6;
+        margin-bottom:0;
+      }
+      
+      .footer-basic li {
+        padding:0 10px;
+      }
+      
+      .footer-basic ul a {
+        color:inherit;
+        text-decoration:none;
+        opacity:0.8;
+      }
+      
+      .footer-basic ul a:hover {
+        opacity:1;
+      }
+      
+      .footer-basic .social {
+        text-align:center;
+        padding-bottom:25px;
+      }
+      
+      .footer-basic .social > a {
+        font-size:24px;
+        width:40px;
+        height:40px;
+        line-height:40px;
+        display:inline-block;
+        text-align:center;
+        border-radius:50%;
+        border:1px solid #ccc;
+        margin:0 8px;
+        color:inherit;
+        opacity:0.75;
+      }
+      
+      .footer-basic .social > a:hover {
+        opacity:0.9;
+      }
+      
+      .footer-basic .copyright {
+        margin-top:15px;
+        text-align:center;
+        font-size:13px;
+        color:#aaa;
+        margin-bottom:0;
+      }
+      
