@@ -24,7 +24,7 @@ body{background-image:url(images/imagen\ fondo.jpg);
 
 /*home*/
 
-h1:hover{ text-align: center;
+h1{ text-align: center;
         color: lightpink;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         
