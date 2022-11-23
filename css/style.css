@@ -1,0 +1,194 @@
+/*Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+/*body*/
+body {
+  background-image: url(/images/imagen\ fondo.jpg);
+  background-size: cover;
+  font-family: "Kaushan Script", cursive;
+}
+
+.imagenlogo {
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/*Footer*/
+.footer-basic {
+  padding: 40px 0;
+  background-color: lightpink;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  /*Google Fonts*/
+  @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+}
+
+header {
+  background-color: lightpink;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+}
+header nav .container-fluid div div .nav-link {
+  text-decoration: none;
+  font-family: "Kaushan Script", cursive;
+  font-style: bold italic;
+  color: black;
+  font-size: large;
+}
+
+/*home*/
+h1 {
+  text-align: center;
+  color: lightpink;
+  font-family: "Kaushan Script", cursive;
+  text-shadow: -3px -3px 2px black;
+}
+
+#h3-home {
+  text-align: center;
+  color: lightpink;
+  font-family: "Kaushan Script", cursive;
+  text-shadow: -3px -3px 2px black;
+}
+
+/*imagen*/
+.imagenpasteleria {
+  width: 300px;
+  border-radius: 500px;
+}
+
+.section-home {
+  background-color: lightpink;
+  border-radius: 50px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+#h2-home {
+  text-align: center;
+}
+
+/*imagen*/
+.imagenpanaderia {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  border-radius: 500px;
+}
+
+/*imagen*/
+.imagenboxes {
+  width: 300px;
+  height: 200px;
+  border-radius: 500px;
+}
+
+#h4footer {
+  color: black;
+}
+
+/* Nosotros */
+/*se rehutilizaron los ID*/
+.section-nosotros {
+  background-color: lightpink;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#h2-nosotros {
+  display: flex;
+  justify-content: center;
+  font-family: "Kaushan Script", cursive;
+}
+
+.img-somos {
+  width: 350px;
+}
+
+.img-vision {
+  width: 350px;
+}
+
+/* Productos*/
+.container-productos {
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-body {
+  background-color: lightpink;
+}
+
+/* sugerencias*/
+.Form-sugerencias {
+  width: 300px;
+  background-color: pink;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  font-family: "Kaushan Script", cursive;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,3 +1,7 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
 
 /*header*/
 header{ background-color:lightpink; 
@@ -7,7 +11,8 @@ header{ background-color:lightpink;
         justify-content: center;}
 /*body*/
 body{background-image:url(images/imagen\ fondo.jpg);
-        background-size:cover;}
+        background-size:cover;
+        font-family: 'Kaushan Script', cursive;}
 
 
 .imagenlogo{height: auto;
@@ -26,17 +31,16 @@ body{background-image:url(images/imagen\ fondo.jpg);
 
 h1{ text-align: center;
         color: lightpink;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        
-       
-        }
+        font-family: 'Kaushan Script', cursive;
+        text-shadow: -3px -3px 2px black; }
 
         
 
 
 #h3-home{text-align: center;
         color: pink;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        font-family: 'Kaushan Script', cursive;
+        text-shadow: -3px -3px 2px black;}
 
 /*imagen*/
 .imagenpasteleria{width:300px;
@@ -75,7 +79,7 @@ h1{ text-align: center;
 
 /*a*/
 a{text-decoration: none;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Kaushan Script', cursive;
         font-style: bold italic;
         color: black;
         font-size: large;}
@@ -94,7 +98,8 @@ a{text-decoration: none;
 
 
 #h2-nosotros{display: flex;
-        justify-content: center;}
+        justify-content: center;
+        font-family: 'Kaushan Script', cursive;}
 
 
 .img-somos{width: 350px;}
@@ -125,7 +130,7 @@ a{text-decoration: none;
         margin-top: 100px;
         margin-bottom: 100px;
         border-radius: 4px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Kaushan Script', cursive;
         color: black;}
 
 
